@@ -1,0 +1,50 @@
+/* Forms */
+
+.css-form input.ng-invalid.ng-dirty {
+  border: 1px solid #e62e18;
+}
+.css-form input.ng-valid.ng-dirty {
+  border: 1px solid #78FA89;
+}
+form {}
+label {
+  border-top: 1px solid #ededed;
+}
+label:first-child {
+  border: none;
+}
+form span {
+  display: block;
+  padding: 0 14px;
+  text-align: right;
+  font-size: 12px;
+}
+input, 
+textarea,
+select {
+  display: block;
+  border: 1px solid #d6d6d6;
+  color: #686868;
+}
+input[type='text'], 
+input[type='email'], 
+input[type='password'], 
+input[type='file'], 
+textarea {
+  width: 200px;
+}
+textarea {
+  height: 60px;
+}
+button {
+  border: none;
+  background-color: #e2e2e2;
+  cursor: pointer;
+  float: right;
+}
+button:focus {
+  border: none;
+}
+button:hover {
+  opacity: 0.9;
+}

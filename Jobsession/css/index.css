@@ -1,0 +1,200 @@
+ul, li {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.index_main {
+  height: 620px;
+  width: 100%;
+  min-width: 948px;
+  position: relative;
+  border-bottom: 1px solid #7bcc65;
+}
+
+.index_back_color {
+  background-color: #358da1;
+  margin: 0;
+  padding: 0;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.index_back_img {
+  margin: 0;
+  padding: 0;
+  background: url('../images/IMG_0143.jpg');
+  background-position: bottom center;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.index_content {
+  width: 100%;
+  height: inherit;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.mps-wrap {
+  width: 928px;
+  padding: 50px 10px;
+  overflow: hidden;
+  position: relative;
+  padding-left: 222px;
+  left: -214px;
+  margin: 0 auto;
+}
+
+.mps-keywords {
+  display: block;
+  float: left;
+  clear: both;
+  width: 906px;
+  height: 64px;
+  margin-top: 23px;
+  padding: 0 10px;
+  background-color: rgb(245, 245, 245);
+  font-size: 1.417em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+  -webkit-appearance: none;
+}
+:focus {
+  outline: 0;
+}
+
+.mps-opt-hold {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 181px;
+  overflow-y: scroll;
+}
+
+.mps-opt-title {
+  float: left;
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  background-color: rgb(214, 214, 214);
+}
+
+.mps-opt-title .text {
+  width: 21.1726384364%;
+  margin: 18px 0 0 5.5374592833%;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
+
+.mps-opt-hold li {
+  float: left;
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  cursor: pointer;
+  list-style: none;
+}
+
+.mps-opt-hold li:not(.ref_lime_select):hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.mps-opt-hold li:active {
+  background-color: rgb(220, 220, 220);
+}
+
+.mps-opt-hold li p {
+  padding: 10px 0 0 5.5374592833%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0,0,0);
+}
+
+.mps-select {
+  float: left;
+  width: 31.9791666666%;
+  height: 240px;
+  margin-top: 24px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.mps-submit {
+  float: left;
+  width: 100%;
+  cursor: pointer;
+  height: 76px;
+  margin-top: 23px;
+  background-color: #7bcc65;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.6em;
+  border: none;
+  line-height: 1.38;
+  letter-spacing: 1px;
+}
+
+.mps-title {
+  float: left;
+  width: 100%;
+  height: 64px;
+  border-right: 1px solid #7bcc65;
+  border-bottom: 1px solid #7bcc65;
+}
+
+.mps-title-search {
+  float: left;
+  width: 23.566214807%;
+  height: 64px;
+  background-color: #7bcc65;
+}
+
+.mps-title-search .text {
+  display: inline-block;
+  margin: 16px 0 0 7.5221238938%;
+  font-size: 1.5em;
+  line-height: 1.48;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  float: left;
+}
+
+.mps-select-1 {
+  clear: both;
+}
+
+.mps-select-2 {
+  margin-left: 15px;
+}
+
+.mps-select-3 {
+  margin-left: 16px;
+}
+
+.text-2 {
+  display: inline-block;
+  margin: 34px 0 0 57.5%;
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}

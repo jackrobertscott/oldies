@@ -1,0 +1,429 @@
+.profile_spacer {
+	width: 950px;
+	height: 14px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.profile_left {
+	min-height:;  /* gonna need to change */
+	width: 470px;
+	background-color:;
+	position: relative;
+	margin-left: 9px;
+	float: left;
+}
+
+.profile_left .photo_buff {
+	height: 230px;
+	width: 470px;
+	float: left;
+	margin: 0;
+	border: 1px solid #d6d6d6;
+	border-right: none;
+	overflow: hidden;
+	background-color: #fcfcfc;
+}
+
+.person_details {
+	height: 210px;
+	width: 350px;
+	padding: 10px;
+	background-color:;
+	float: left;
+}
+
+.person_details * {
+	color: #3d3d3d;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.person_details h1 {
+	font-size: 24px;
+	padding: 2px 0 2px 10px;
+}
+
+.person_details h2 {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.person_details p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.person_details p:last-child {
+	padding-bottom: 10px;
+}
+
+.profile_right {
+	min-height: 900px;
+	width: 459px;
+	position: relative;
+	float: right;
+	border-left: 1px solid #d6d6d6;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.profile_right .photo_buff {
+	height: 230px;
+	width: 458px;
+	margin: 0;
+	border: none;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #d6d6d6;
+	border-left: none;
+}
+
+.profile_left .main_photo {
+	height: 200px;
+	width: 200px;
+	background-color: #fcfcfc;
+	border: 1px solid #d6d6d6;
+	position: absolute;
+	right: -101px;
+	top: 14px;
+}
+
+.profile_left .main_photo_hold {
+	height: 192px;
+	width: 192px;
+	overflow: hidden;
+	position: relative;
+	margin: 4px;
+	background-size: cover;
+	background-position: center;
+}
+
+.profile_left .main_photo img {
+	min-height:100%; 
+	min-width:100%;
+  	margin: auto;
+}
+
+.profile_left .first_list {
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.profile_left .first_list li {
+	width: 470px;
+	background-color: #fcfcfc;
+	border: 1px solid #d6d6d6;
+	border-top: none;
+	border-right: none;
+	float: left;
+}
+
+.profile_left .first_list li:hover:not(.job_sub_green) {
+	background-color: #eceef1;
+}
+
+.profile_left .first_list li:active:not(.job_sub_green) {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	box-shadow:         inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+}
+
+.profile_left .first_list li p {
+	font-size: 14px;
+	padding: 13px;
+	margin: 0;
+	color: #3d3d3d;
+}
+
+.profile_left .first_list li p span {
+	padding-right: 10px;
+}
+
+.profile_left .first_list .job_sub_green {
+	background: #00cbea;
+}
+
+.profile_right .sub_new:active {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	box-shadow:         inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+}
+
+.profile_right .sub_new p {
+	font-size: 15px;
+	text-align: center;
+	color: #f8f8ff;
+	margin: 0;
+	padding: 7px 0;
+}
+
+.profile_right .inputer {
+	font-size: 16px;
+	height: 30px;
+	line-height: 1.2em;
+	width: 441px;
+	padding-left: 6px;
+	margin: 10px 0 0 0;
+	float: right;
+}
+
+.profile_right .inputer_textarea {
+	font-size: 16px;
+	height: 160px;
+	line-height: 1.2em;
+	width: 440px;
+	padding-left: 6px;
+	margin: 10px 0 0 0;
+	float: right;
+}
+
+.first_list .profile_jobs {
+	background-color: #fcfcfc;
+  	height: 44px;
+	width: 400px;
+  	border: 1px solid #d6d6d6;
+  	border-top: none;
+  	color: #3d3d3d;
+  	cursor: pointer;
+  	font-size: 15px;
+  	padding: 13px;
+  	float: right;
+  	text-align: left;
+}
+
+.first_list .profile_jobs_delete {
+	background-color: #ededed;
+  	border: none;
+  	height: 44px;
+	width: 71px;
+  	border-bottom: 1px solid #d6d6d6;
+  	color: #3d3d3d;
+  	cursor: pointer;
+  	font-size: 15px;
+  	padding: 13px;
+  	float: right;
+  	text-align: right;
+}
+
+.first_list .profile_jobs:hover {
+	background-color: #eceef1;
+}
+
+.first_list .profile_jobs:active {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	box-shadow:         inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+}
+
+.profile_right .right_text {
+	height:;
+	width: 428px;
+	padding: 10px;
+	float: right;
+	margin: 10px 0 0 10px;
+	background-color: #fcfcfc;
+	border: 1px solid #d6d6d6;
+}
+
+.profile_right .right_text p {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	color: #3d3d3d;
+	font-size: 14px;
+}
+
+.profile_right .submit_form {
+	height: 50px;
+	width: 450px;
+	background-color: #c4004e;
+	float: right;
+	text-align: center;
+	font-size: 16px;
+	margin: 10px 0 0 10px;
+}
+
+.profile_right .submit_form:hover {
+	background-color: #db0054;
+}
+
+.profile_right .submit_form:active {
+	background-color: #c4004e;
+	-webkit-box-shadow: inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	box-shadow:         inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+}
+
+.black_screen {
+	width: 100%;
+	height: 100%;
+	z-index: 3000;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow-y: scroll;
+}
+
+.black_screen .delete_checker {
+	width: 160px;
+	height:;
+	padding: 10px;
+	background-color: #fcfcfc;
+	border: 1px solid #d6d6d6;
+	position: fixed;
+	margin: 20% auto;
+  	left: 0;
+  	right: 0;
+	z-index: 100;
+}
+
+.black_screen .delete_checker p {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+.black_screen .delete_checker .yes {
+	height: 40px;
+	width: 160px;
+	padding: 10px;
+	background-color: #c4004e;
+	cursor: pointer;
+	border: none;
+	float: right;
+	margin-top: 10px;
+}
+
+.black_screen .delete_checker .yes:hover {
+	background-color: #db0054;
+}
+
+.black_screen .delete_checker .yes:active {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	box-shadow:         inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+}
+
+.black_screen .delete_checker .no {
+	background-color: #00c4c4;
+	height: 40px;
+	width: 160px;
+	padding: 10px;
+	cursor: pointer;
+	border: none;
+	float: left;
+	margin-top: 10px;
+}
+
+.black_screen .delete_checker .no:hover {
+	background-color: #00d6d6;
+}
+
+.black_screen .delete_checker .no:active {
+	-webkit-box-shadow: inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	-moz-box-shadow:    inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+	box-shadow:         inset 0px 0px 3px rgba(50, 50, 50, 0.1);
+}
+
+.selector_hold {
+	height: 30px; 
+	width: 446px;
+	padding: 10px 5px 0 5px;
+	float: right;
+}
+
+.selector_hold .select {
+	margin: 5px;
+	width: 443px;
+}
+
+.app_thumb {
+	width: 428px;
+	height: 20px;
+	padding: 10px;
+	float: left;
+	position: relative;
+	margin: 10px 0 0 9px;
+	background-color: #fcfcfc;
+	border: 1px solid #d6d6d6;
+}
+
+
+.app_thumb:active {
+	background-color: #f9f9f9; 
+}
+
+.app_thumb:nth-child(odd) {
+	margin: 10px 0 0 10px;
+}
+
+.app_thumb p {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+	color: #3d3d3d;
+	font-size: 14px;
+}
+
+.app_thumb .sub {
+	width: 448px;
+	height: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	color: transparent; 
+	background-color: transparent; 
+	border-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.black_screen .quickCV {
+	width: 540px;
+	padding: 16px;
+	background-color: #fcfcfc;
+	border: 1px solid #d6d6d6;
+	position: absolute;
+	margin: 50px auto;
+  	left: 0;
+  	right: 0;
+	z-index: 100;
+}
+
+.black_screen .quickCV p {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.black_screen .quickCV h3 {
+	padding-left: 26px;
+}
+
+.black_screen .quickCV .title {
+	width: inherit;
+	overflow: hidden;
+}
+
+.black_screen .quickCV .title h1 {
+	font-size: 24px;
+	float: left;
+	padding-top: 4px;
+	text-align: left;
+}
+
+.black_screen .quickCV .title .exit {
+	background-color: red;
+	padding: 10px 16px;
+	color: #ffffff;
+	border: 1px solid #d6d6d6;
+	float: right;
+	cursor: pointer;
+} 

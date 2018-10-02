@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cre",
+				"create"
+			],
+			[
+				"li",
+				"linkExists"
+			],
+			[
+				"link",
+				"linkId"
+			],
+			[
+				"two",
+				"twoId"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"password",
+				"password1"
+			],
+			[
+				"new",
+				"newpassword2"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bgi",
+				"background-image"
+			],
+			[
+				"ff",
+				"ff-t	font-family: \"Times New Roman\", Times, Baskerville, Georgia, serif;"
+			],
+			[
+				"bg",
+				"bg	background: #${1:000};"
+			],
+			[
+				"array",
+				"arrayPos"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ar",
+				"array	$… = array (…)"
+			],
+			[
+				"arr",
+				"arrayPos"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "errors.php",
+			"settings":
+			{
+				"buffer_size": 181,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"the",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"them",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colr",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/TOOLKIT"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/TOOLKIT/errors.php",
+		"/Applications/MAMP/htdocs/TOOLKIT/classes/EmailManager.class.php",
+		"/Applications/MAMP/htdocs/TOOLKIT/classes/Post.class.php",
+		"/Applications/MAMP/htdocs/TOOLKIT/open.php",
+		"/Applications/MAMP/htdocs/TOOLKIT/classes/Link.class.php",
+		"/Applications/MAMP/htdocs/TOOLKIT/libs-void.sublime-project",
+		"/Applications/MAMP/htdocs/website/README.md",
+		"/Applications/MAMP/htdocs/website/theme/config.php",
+		"/Applications/MAMP/htdocs/assets/open.php",
+		"/Applications/MAMP/htdocs/website/index.php",
+		"/Applications/MAMP/htdocs/website/page/about.php",
+		"/Applications/MAMP/htdocs/website/page/contact.php",
+		"/Applications/MAMP/htdocs/website/page/login.php",
+		"/Applications/MAMP/htdocs/website/page/logout.php",
+		"/Applications/MAMP/htdocs/website/page/password.php",
+		"/Applications/MAMP/htdocs/website/page/privacy-policy.php",
+		"/Applications/MAMP/htdocs/website/page/reset.php",
+		"/Applications/MAMP/htdocs/website/page/signup.php",
+		"/Applications/MAMP/htdocs/website/page/terms-and-conditions.php",
+		"/Applications/MAMP/htdocs/website/page/unsubscribe.php",
+		"/Applications/MAMP/htdocs/website/page/update.php",
+		"/Applications/MAMP/htdocs/website/page/verify.php",
+		"/Applications/MAMP/htdocs/assets/libs/PHPMailer/test/phpmailerLangTest.php",
+		"/Applications/MAMP/htdocs/assets/libs/PHPMailer/test/phpmailerTest.php",
+		"/Applications/MAMP/htdocs/website/page/includes/classes/Base.class.php",
+		"/Applications/MAMP/htdocs/website/page/includes/classes/Image.class.php",
+		"/Applications/MAMP/htdocs/website/page/includes/classes/Link.class.php",
+		"/Applications/MAMP/htdocs/website/page/includes/classes/EmailManager.class.php",
+		"/Applications/MAMP/htdocs/website/page/includes/classes/User.class.php",
+		"/Applications/MAMP/htdocs/website/page/README.md",
+		"/Applications/MAMP/htdocs/website/page/theme/config.php",
+		"/Applications/MAMP/htdocs/website/page/theme/header.php",
+		"/Applications/MAMP/htdocs/website/page/theme/css/style.css",
+		"/Applications/MAMP/htdocs/website/page/includes/errors.php",
+		"/Users/Jack/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Jack/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/website/page/includes/index-head.php",
+		"/Users/Jack/Library/Application Support/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/Users/Jack/Library/Application Support/Sublime Text 3/Packages/User/Colorsublime.sublime-settings",
+		"/Applications/MAMP/htdocs/website/page/theme/footer.php",
+		"/Applications/MAMP/htdocs/website/page/includes/open.php",
+		"/Applications/MAMP/htdocs/website/page/includes/reqs-extras.php",
+		"/Applications/MAMP/htdocs/website/page/theme/head.php",
+		"/Applications/MAMP/htdocs/website/page/includes/reqs-presets.php",
+		"/Applications/MAMP/htdocs/web-toolkit/index.php",
+		"/Applications/MAMP/htdocs/web-toolkit/theme/config.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/contact.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/login.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/logout.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/password.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/privacy-policy.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/reset.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/signup.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/terms-and-conditions.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/unsubscribe.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/update.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/verify.php",
+		"/Applications/MAMP/htdocs/web-toolkit/includes/reqdocs.php",
+		"/Applications/MAMP/htdocs/web-toolkit/page/about.php",
+		"/Applications/MAMP/htdocs/web-toolkit/theme/head.php",
+		"/Applications/MAMP/htdocs/web-toolkit/theme/css/style.css",
+		"/Applications/MAMP/htdocs/web-toolkit/theme/foot.php",
+		"/Applications/MAMP/htdocs/web-toolkit/about.php",
+		"/Applications/MAMP/htdocs/web-toolkit/contact.php",
+		"/Applications/MAMP/htdocs/web-toolkit/login.php",
+		"/Applications/MAMP/htdocs/web-toolkit/logout.php",
+		"/Applications/MAMP/htdocs/web-toolkit/password.php",
+		"/Applications/MAMP/htdocs/web-toolkit/privacy-policy.php",
+		"/Applications/MAMP/htdocs/web-toolkit/reset.php",
+		"/Applications/MAMP/htdocs/web-toolkit/signup.php",
+		"/Applications/MAMP/htdocs/web-toolkit/terms-and-conditions.php",
+		"/Applications/MAMP/htdocs/web-toolkit/unsubscribe.php",
+		"/Applications/MAMP/htdocs/web-toolkit/update.php",
+		"/Applications/MAMP/htdocs/web-toolkit/verify.php",
+		"/Applications/MAMP/htdocs/web-toolkit/includes/open.php",
+		"/Applications/MAMP/htdocs/web-toolkit/includes/errors.php",
+		"/Applications/MAMP/htdocs/web-toolkit/includes/close.php",
+		"/Applications/MAMP/htdocs/smoothlines/login.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/theme/css/style.css",
+		"/Applications/MAMP/htdocs/new-web-toolkit/theme/head.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/open.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/index.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/login.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/logout.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/password.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/privacy-policy.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/reset.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/signup.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/terms-and-conditions.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/unsubscribe.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/update.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/verify.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/about.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/contact.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/theme/foot.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/close.php",
+		"/Applications/MAMP/htdocs/smoothlines/reset.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/errors.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/classes/Post.class.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/classes/Image.class.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/classes/Link.class.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/classes/User.class.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/header.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/config/config.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/footer.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/index-foot.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/js/main.js",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/libs/PHPMailer/docs/pop3_article.txt",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/libs/PHPMailer/language/phpmailer.lang-ca.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/libs/PHPMailer/docs/Callback_function_notes.txt",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/libs/PHPMailer/docs/DomainKeys_notes.txt",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/libs/icomoon/demo.html",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/libs/PHPMailer/examples/code_generator.phps",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/libs/recaptcha-php-1.11/example-captcha.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/ajax/login.ajax.php",
+		"/Applications/MAMP/htdocs/new-web-toolkit/includes/forms/login.html",
+		"/Applications/MAMP/htdocs/php-web-toolkit/forms/login.html",
+		"/Users/Jack/Documents/2014/CITS1402/Lab4/21504053_Lab_4.txt",
+		"/Applications/MAMP/htdocs/php-web-toolkit/README.md",
+		"/Applications/MAMP/htdocs/php-web-toolkit/install/tables.sql",
+		"/Users/Jack/Desktop/sr.html",
+		"/Users/Jack/Library/Application Support/Sublime Text 3/Packages/DashDoc/Default (OSX).sublime-keymap",
+		"/Users/Jack/Library/Application Support/Sublime Text 3/Packages/DashDoc/DashDoc.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"TwoId",
+			"OneId",
+			"unitId",
+			"UnitId",
+			"require(ASSETS.'includes/open.php');",
+			"INCLUDE_DIR",
+			"include(\"theme/footer.php\");",
+			"include(\"theme/header.php\");",
+			"require('theme/config.php');",
+			"class=\"content\"",
+			"PRESETS_DIR",
+			"input-wrap",
+			"inputwrap",
+			"email_des",
+			"SERVER_DIR",
+			"ROOT_DIR",
+			"include(\"theme/foot.php\");",
+			"include(\"theme/head.php\");",
+			"define(\"ROOT_DIR\", $_SERVER['DOCUMENT_ROOT'].\"/website/page/\");\nrequire(ROOT_DIR.'includes/open.php');",
+			"require('includes/reqs-presets.php');",
+			"require('includes/presets.php');",
+			"require('includes/reqdocs.php');",
+			"require('../includes/reqdocs.php');",
+			"include(ROOT_DIR.\"theme/foot.php\");",
+			"include(ROOT_DIR.\"theme/head.php\");",
+			"require('includes/reqdocs.php');",
+			"ROOT_DIR",
+			"<?php echo ROOT_DIR; ?>",
+			"require(ROOT_DIR.'includes/reqdocs.php');",
+			"include(\"/theme/foot.php\");",
+			"include(\"/theme/head.php\");",
+			"require('/includes/reqdocs.php');",
+			"include(\"theme/foot.php\");",
+			"include(\"theme/head.php\");",
+			"require('includes/reqdocs.php');",
+			"require('../includes/reqdocs.php');",
+			"include(\"../includes/open.php\");",
+			"include(\"../includes/close.php\");",
+			"<?php echo PRESETS_DIRECTORY; ?>",
+			"PAGE_DIRECTORY",
+			"include(\"includes/",
+			"require('includes/reqdocs.php');",
+			"include(\"includes/header.php\");",
+			"include(\"includes/footer.php\");",
+			"Activity",
+			"new Unit",
+			"->create(",
+			"create",
+			"</label>",
+			"</p>\n			<input",
+			"<div class=\"input-wrap\">\n			<p>",
+			"<div class=\"input-wrap\">\n			<input type=\"submit\" value=\"submit\">\n		</div>\n	</form>",
+			"\" method=\"POST\">",
+			"<form action=\"",
+			"`",
+			"'",
+			"`"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"SecondaryId",
+			"PrimaryId",
+			"linkId",
+			"LinkId",
+			"require(ASSETS.'open.php');",
+			"ASSETS",
+			"include(\"../theme/footer.php\");",
+			"include(\"../theme/header.php\");",
+			"require('../theme/config.php');",
+			"class=\"content center\"",
+			"emailStyle",
+			"LINK",
+			"INCLUDE_DIR",
+			"include(\"theme/footer.php\");",
+			"include(\"theme/header.php\");",
+			"require('theme/config.php');\nrequire(ROOT_DIR.'includes/open.php');",
+			"define(\"ROOT_DIR\", $_SERVER['DOCUMENT_ROOT'].\"/website/page/\");\nrequire(ROOT_DIR.'includes/open.php');",
+			"require('includes/reqs-presets.php');",
+			"require('includes/presets.php');",
+			"require('includes/reqdocs.php');",
+			"include(\"theme/foot.php\");",
+			"include(\"theme/head.php\");",
+			"require('../includes/reqdocs.php');",
+			"SERVER_DIR",
+			"<?php echo $_SERVER[HTTP_REFERER]; ?>",
+			"require('includes/reqdocs.php');",
+			"include(ROOT_DIR.\"theme/foot.php\");",
+			"include(ROOT_DIR.\"theme/head.php\");",
+			"require(ROOT_DIR.'includes/reqdocs.php');",
+			"include(\"/theme/foot.php\");",
+			"include(\"/theme/head.php\");",
+			"require('/includes/reqdocs.php');",
+			"require('includes/reqdocs.php');",
+			"include(\"theme/head.php\");",
+			"include(\"theme/foot.php\");",
+			"",
+			"PRESETS_DIRECTORY",
+			"include(\"../includes/",
+			"require('../includes/reqdocs.php');",
+			"include(\"includes/open.php\");",
+			"include(\"includes/close.php\");",
+			"</label><br/>",
+			"\n",
+			"<label>",
+			"<button ng-disabled=\"form.$invalid\">Submit</button>\n	</form>",
+			"\" method=\"POST\" novalidate>",
+			"<form name=\"form\" class=\"css-form\" action=\"",
+			"",
+			"`",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "errors.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "libs-void.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"errors.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

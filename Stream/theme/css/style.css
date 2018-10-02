@@ -1,0 +1,93 @@
+/* Header */
+
+#header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+#privacy {
+	margin-top: 46px;
+}
+#title {}
+
+/* Footer */
+
+#footer {}
+.index-foot {
+  text-align: center;
+  width: 100%;
+}
+
+/* Content */
+
+.w-theme {
+	width: 1000px;
+}
+#wrapper {}
+#left {}
+#middle {
+    width: 100%;
+}
+.inc-post {
+    width: calc(100% - 301px) !important;
+}
+#right {}
+
+/* Post */
+
+.post {
+	background-color: #f9f9f9;
+	border-left: 3px solid #a8a8a8;
+	width: calc(100% - 38px);
+}
+.post-user {
+	border-left: 3px solid #244b88;
+}
+.post-spacer {
+	height: 30px;
+	border-left: 3px dotted #cccccc;
+}
+.post-message {
+	width: calc(100% - 120px);
+}
+.day {
+	border-left: 3px solid #ff9e0a;
+	width: calc(100% - 38px);
+}
+.bg-today {
+    background-color: #d6fee4;
+}
+
+/* Post Form (pf) */
+
+.event-wrap {
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 46px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.event {
+	width: 400px;
+	background-color: #ffffff;
+	margin-top: 50px;
+}
+
+/* Media */
+
+@media (max-width: 1020px) {
+	.w-theme {
+		width: 800px;
+	}
+}
+@media (max-width: 820px) {
+	.w-theme {
+		width: 100%;
+	}
+	.friend {
+		width: calc(100% - 28px);
+	}
+}

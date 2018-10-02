@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-family: arial;
+	text-decoration: none;
+}
+.corner {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.shadow {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.3);
+}
+body {
+	background-color: #f9f9f9;
+}
+.wrapper {
+	background-color: #FFFFFF;
+	width: 360px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+.header {
+	width: 100%;
+	background-color: #2D516A;
+	color: #FFFFFF;
+}
+.header > * {
+	display: inline;
+}
+.header .logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	background-image: url("../images/logo.png");
+	background-size: cover;
+	margin: 7px;
+	float: left;
+}
+.header .title {
+	display: block;
+	padding: 40px 14px 14px;
+}
+.header a {
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 3px;
+	float: right;
+}
+.middle {
+	width: 100%;
+	min-height: 300px;
+	color: #000000;
+	position: relative;
+}
+.middle > span {
+	font-size: 13px;
+	padding: 14px 14px 0;
+	display: block;
+}
+.middle .toggle {
+	height: 7px;
+	width: 7px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	background-color: #B4B504;
+	color: #FFFFFF;
+	padding: 8px 13px 17px 12px;
+	position: absolute;
+	top: 56px;
+	right: 14px;
+}
+.middle input {
+	width: calc(100% - 30px);
+	padding: 14px;
+	margin: 14px auto 0;
+	border: 1px solid #9B0F6F;
+	font-size: 14px;
+	display: block;
+}
+.middle .go-button {
+	background-color: #E80C29;
+	color: #f9f9f9;
+	cursor: pointer;
+}
+.middle .back {
+	width: 100%;
+	background-color: #E80C29;
+	color: #FFFFFF;
+	padding: 14px;
+}
+.middle ul {
+	padding: 14px;
+	margin-top: 14px;
+	padding-left: 30px;
+	border-top: 1px solid #cccccc;
+}
+.middle li {
+	padding-bottom: 5px;
+	font-size: 13px;
+}
+.middle a {
+	font-size: 12px;
+	display: block;
+}
+.footer {
+	width: 100%;
+	background-color: #2D516A;
+	color: #FFFFFF;
+}
+.footer span {
+	padding: 14px;
+	display: block;
+	font-size: 13px;
+}

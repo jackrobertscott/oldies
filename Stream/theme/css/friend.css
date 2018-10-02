@@ -1,0 +1,42 @@
+/* MAIN */
+
+.friend {}
+
+.friend > div:nth-child(even) {
+	border: 1px solid #2ac1d4;
+}
+
+.friend p {
+	float: left;
+	padding: 7px !important;
+	margin: 0;
+}
+
+.friend button {
+	background-color: #2ac1d4;
+	color: #ffffff;
+	margin: 0 0 0 7px;
+}
+
+.friend button:nth-child(odd) {
+	margin-right: -7px;
+}
+
+.friend .confirm {
+	background-color: #2ad449;
+}
+
+.friend .delete {
+	background-color: #cccccc;
+}
+
+.friend-search {
+	width: calc(100% - 20px) !important;
+}
+
+.friend-dp {
+	width: 28px;
+	height: 28px;
+	background-size: cover;
+	background-position: center;
+}

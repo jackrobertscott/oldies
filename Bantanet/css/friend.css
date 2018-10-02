@@ -1,0 +1,129 @@
+/**
+* FRIENDS
+*/
+
+.space-friend-top {
+  float: left;
+  height: 14px;
+  width: 100%;
+}
+
+.wrap-friend {
+  width: 46%;
+  float: left;
+  position: relative;
+  margin: 0 0 14px 2.5%;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.wrap-friend p {
+  font-size: 12px;
+  padding: 6px;
+  margin: 0;
+  display: block;
+}
+
+.f-add {
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #a3e0e0;
+  border-left: 1px solid #cccccc;
+}
+
+.f-add:hover {
+  background-color: #8cd8d8;
+}
+
+.page-index,
+.wrap-req {
+  width: 95%;
+  margin: 0 2.5% 14px;
+  float: left;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.page-index p,
+.wrap-req p {
+  font-size: 12px;
+  padding: 6px;
+  margin: 0;
+  display: block;
+}
+
+.page-index {
+  padding: 4px 0;
+}
+
+.req-add {
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 100px;
+  bottom: 0;
+  background-color: #a3e0e0;
+  border-left: 1px solid #cccccc;
+}
+
+.req-add:hover {
+  background-color: #8cd8d8;
+}
+
+.req-remove {
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f0b3a2;
+  border-left: 1px solid #cccccc;
+}
+
+.req-remove:hover {
+  background-color: #eea590;
+}
+
+.wrap-req .friends,
+.wrap-friend .friends {
+  background-color: #bae8bf;
+}
+
+.wrap-req .sent,
+.wrap-friend .sent {
+  background-color: #f3b3ee;
+}
+
+.wrap-req .sent:hover,
+.wrap-req .friends:hover,
+.wrap-friend .sent:hover,
+.wrap-friend .friends:hover {
+  background-color: #eea590;
+}
+
+.ft {
+  width: calc(95% - 139px) !important;
+  margin: 14px 0 0 2.5%;
+}
+
+.fs {
+  width: 100px !important;
+  margin: 14px 0 0 -4px;
+  padding: 17px;
+  margin: 0;
+  background-color: #2366ba;
+  color: #ffffff;
+}

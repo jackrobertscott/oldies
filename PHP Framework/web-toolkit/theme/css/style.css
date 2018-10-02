@@ -1,0 +1,73 @@
+.css-form input.ng-invalid.ng-dirty {}
+
+.css-form input.ng-valid.ng-dirty {
+  border: 1px solid #78FA89;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  text-decoration: none;
+  list-style-type: none;
+  resize: none;
+}
+
+*:focus {
+  outline: 0;
+  border: 1px solid #8ac0df;
+}
+
+u {
+  text-decoration: underline !important;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+/* index-foot = span */
+.index-foot {
+  text-align: center;
+  width: 100%;
+}
+
+.corner {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.3);
+  box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.3);
+}
+
+body {}
+
+.header {}
+
+.footer {}
+
+.footer p {
+  width: 100%;
+  text-align: center;
+}
+
+.footer a {
+  margin: 0 20px 0 0;
+}
+
+.content {}
+
+input, 
+textarea,
+select {}
+
+/*Try to depreciate 'input-wrap' class with the use of <label> tags*/
+.input-wrap {}
+

@@ -1,0 +1,45 @@
+/* Main */
+
+body {}
+
+.header {
+  background-color: #f7f7f7;
+}
+
+.header h1 {
+  font-size: 20px;
+  float: left;
+}
+
+.header p {
+  font-size: 14px;
+  padding-top: 14px;
+}
+
+.content {
+  width: 800px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #cccccc;
+}
+
+.footer p {
+  width: 100%;
+  text-align: center;
+}
+
+.footer a {
+  margin: 0 20px 0 0;
+}
+
+/* index-foot = span */
+.index-foot {
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 800px) {}
+@media (max-width: 600px) {}
+@media (max-width: 400px) {}
