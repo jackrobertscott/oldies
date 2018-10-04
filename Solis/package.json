@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "gulp-hub": "github:frankwallis/gulp-hub#registry-init",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.5",
     "browser-sync": "^2.10.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
