@@ -1,0 +1,56 @@
+{% extends 'JRSMercurialBundle::base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block stylesheets %}
+{{ parent() }}
+<style>
+    .menu {
+        background-color: rgba(0, 0, 0, 0.4);
+        color: #FFFFFF;
+        overflow: hidden;
+    }
+    .content {
+        min-height: 100vh;
+        background-color: #FEFEFE;
+    }
+    .content textarea {
+        min-height: 140px;
+    }
+    .content hr {
+        margin-top: 0;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<div class="row">
+    <div class="small-12 columns">
+        <div class="row">
+            <div class="small-2 columns menu shadow">
+                <ul class="side-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Posts</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="small-10 columns content shadow">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h1 class="title">{% block content_title %}{% endblock %}</h1>
+                    </div>
+                </div>
+                <hr>
+                {% block content_body %}{% endblock %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+{{ parent() }}
+{% endblock %}

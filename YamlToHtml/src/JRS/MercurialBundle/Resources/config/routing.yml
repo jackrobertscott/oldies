@@ -1,0 +1,8 @@
+jrs_mercurial_homepage:
+    path:     /
+    defaults: { _controller: JRSMercurialBundle:Default:index }
+
+jrs_mercurial_login:
+    path:     /login
+    defaults: { _controller: JRSMercurialBundle:Default:login }
+

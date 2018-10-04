@@ -1,0 +1,72 @@
+{% extends 'JRSMercurialBundle::base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block stylesheets %}
+{{ parent() }}
+<style>
+    .vertical-center {
+        position: absolute;
+        top: 45%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .login {
+        background-color: #FFFFFF;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="vertical-center">
+    <div class="row">
+        <div class="small-12 columns">
+            <form action="{{ path("fos_user_security_check") }}" method="post">
+                <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+                <div class="row">
+                    <div class="small-6 small-offset-3 columns login shadow">
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <h2>Login</h2>
+                            </div>
+                        </div>
+                        {% if error %}
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <p>{{ error.messageKey|trans(error.messageData, 'security') }}</p>
+                            </div>
+                        </div>
+                        {% endif %}
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <input type="text" placeholder="Username" id="username" name="_username" value="{{ last_username }}" required="required">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <input type="password" placeholder="Password" id="password" name="_password" required="required">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                Remember me
+                                <input type="checkbox" id="remember_me" name="_remember_me" value="on">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <button type="submit" role="button" aria-label="submit form" href="#" class="button small expand">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+{{ parent() }}
+{% endblock %}

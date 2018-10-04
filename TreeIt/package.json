@@ -1,0 +1,19 @@
+{
+  "name": "treeit",
+  "version": "0.1.0",
+  "description": "A simple visual directory tree generator",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Jack Scott <mast.j.scott@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "lodash": "^3.10.1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bin": {
+    "treeit": "index.js"
+  }
+}

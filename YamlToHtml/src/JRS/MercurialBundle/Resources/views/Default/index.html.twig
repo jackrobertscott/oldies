@@ -1,0 +1,36 @@
+{% extends 'JRSMercurialBundle::layout.html.twig' %}
+
+{% block content_title %}Posts{% endblock %}
+
+{% block content_body %}
+<form>
+    <div class="row">
+        <div class="small-8 columns">
+            <input type="text" placeholder="Title">
+        </div>
+        <div class="small-4 columns">
+            <select>
+                <option value="1">Blog</option>
+                <option value="2">Products</option>
+                <option value="3">Other</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 columns">
+            <textarea placeholder="Description"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 columns">
+            <input type="text" placeholder="Hashtags">
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 columns">
+            <a role="button" aria-label="submit form" href=
+            "#" class="button small right">Submit</a>
+        </div>
+    </div>
+</form>
+{% endblock %}
